@@ -2,10 +2,10 @@
 
 spring:
   application:
-    name: roster
+    name: company
   cloud:
     config:
-      uri: ${vcap.services.config-server.server.credentials.uri}
+      uri: ${vcap.services.config-server.credentials.uri}
   management:
     security:
       enabled: false
