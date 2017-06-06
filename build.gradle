@@ -31,8 +31,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-rest')    
 	compile('org.springframework.cloud:spring-cloud-spring-service-connector:1.2.4.RELEASE')
     compile('org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.4.RELEASE')
-	compile('mysql:mysql-connector-java')
 	compile('org.springframework.cloud:spring-cloud-starter-config')
+	compile('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
